@@ -1,10 +1,11 @@
 package main
 
 import (
-	"./overture"
 	"flag"
-	log "github.com/Sirupsen/logrus"
 	"runtime"
+
+	log "github.com/Sirupsen/logrus"
+	"github.com/sh1r0/overture/overture"
 )
 
 func main() {
